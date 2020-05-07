@@ -6,7 +6,9 @@ body{
 }
 .fuente{
     font-family: 'Oswald', sans-serif;
+    font-weight: bold;
 }
+
 h2{
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
@@ -15,17 +17,38 @@ nav
 {
     background-color: #660066;
 }
+header hr{
+    border-style: solid;
+    width: 150pt;
+}
+hr{
+    border-style: solid;
+    width: 80pt;
+}
 .hero{
-    background-image: url('../img/portada.JPG');
+    background-image: url('../img/hero_bg.JPG');
     background-repeat: no-repeat;
-    filter: opacity(85%);
     background-size: cover;
     background-position: left; 
     padding-bottom: 10rem;
 }
+@media screen and (min-width:320px) and (max-width:768px){
 
+    #about{
+        display: none;
+    }   
+}
+.interlineado{
+    line-height: 2.5;
+}
+.card-title{
+    font-family: 'Oswald', sans-serif; 
+}
 .trabajos{
     background-color: #660066;
+}
+.fuente-color{
+    color: #660066;
 }
 footer{
     background-color: #660066;
